@@ -45,6 +45,7 @@ body {
   margin: 0px 50px;
   list-style: none;
   font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .menu__link {
@@ -138,10 +139,11 @@ body {
   font-family: "Segoe UI", sans-serif;
 }
 
-.block-text__button {
+.get-started__button {
+  width: 305px;
 }
 
-.block-text__button--blue {
+.get-started__button--blue {
   width: 140px;
   height: 45px;
   border: none;
@@ -153,12 +155,12 @@ body {
   cursor: pointer;
 }
 
-.block-text__button--blue:hover {
+.get-started__button--blue:hover {
   box-shadow: 0px 0px 20px 0px #12f3ff;
   transition: 0.5ms;
 }
 
-.block-text__button--background-none {
+.get-started__button--background-none {
   width: 140px;
   height: 45px;
   background-color: #fcc302;
@@ -169,7 +171,7 @@ body {
   cursor: pointer;
 }
 
-.block-text__button--background-none:hover {
+.get-started__button--background-none:hover {
   box-shadow: 0px 0px 20px 0px white;
   transition: 0.5ms;
 }
@@ -179,7 +181,45 @@ body {
 
 .get-started__image-item {
   position: relative;
-  left: 200px;
+  left: 190px;
   bottom: 30px;
   width: 360px;
+}
+
+.care-block__container {
+  display: flex;
+  height: 600px;
+}
+
+.care-block__text-container {
+  padding: 100px 0px 0px 100px;
+}
+
+.care-block__title {
+  font-size: 34px;
+}
+
+.care-block__text {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+}
+
+.care-block__button {
+  margin-top: 35px;
+}
+
+.care-block__button-item {
+  width: 140px;
+  height: 45px;
+  background-color: #fcc302;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.care-block__button-item:hover {
+  box-shadow: 0px 0px 20px 0px #fcc302;
+  transition: 0.5ms;
 }
