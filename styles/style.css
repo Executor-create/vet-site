@@ -33,7 +33,7 @@ body {
 }
 
 .header__logo {
-  width: 80px;
+  margin-left: 35px;
 }
 
 .menu__list {
@@ -44,7 +44,7 @@ body {
 .menu__item {
   margin: 0px 50px;
   list-style: none;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .menu__link {
@@ -59,12 +59,13 @@ body {
 
 .header__search-form {
   display: flex;
+  margin-right: 30px;
 }
 
 .header__search-input {
   width: 150px;
   height: 40px;
-  padding-left: 20px;
+  padding: 15px;
   color: white;
   font-weight: bold;
   background-color: #fcc302;
@@ -73,7 +74,6 @@ body {
 
 .header__search-input:focus {
   outline: none;
-  border: 1px solid yellow;
   transition: 0.5ms;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .header__search-button:hover {
-  box-shadow: 0px 0px 20px 0px #00f2ff;
+  box-shadow: 0px 0px 20px 0px #12f3ff;
   transition: 0.5ms;
 }
 
@@ -154,7 +154,7 @@ body {
 }
 
 .block-text__button--blue:hover {
-  box-shadow: 0px 0px 20px 0px #00f2ff;
+  box-shadow: 0px 0px 20px 0px #12f3ff;
   transition: 0.5ms;
 }
 
