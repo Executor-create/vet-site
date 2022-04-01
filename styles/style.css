@@ -3,6 +3,10 @@ body {
   box-sizing: border-box;
 }
 
+:root {
+  --main-bg-color: #fcc302;
+}
+
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -69,13 +73,12 @@ body {
   padding: 15px;
   color: white;
   font-weight: bold;
-  background-color: #fcc302;
+  background-color: var(--main-bg-color);
   border: none;
 }
 
-.header__search-input:focus {
+.header__search-input--focus:focus {
   outline: none;
-  transition: 0.5ms;
 }
 
 .header__search-input::placeholder {
@@ -107,11 +110,12 @@ body {
 /*********** Header-block end ***********/
 
 /*********** Main-block start ***********/
+/*********** Get-started block start ***********/
 
 .get-started {
   height: 545px;
   padding: 100px 0px 0px 100px;
-  background-color: #fcc302;
+  background-color: var(--main-bg-color);
 }
 
 .get-started__container {
@@ -163,7 +167,7 @@ body {
 .get-started__button--background-none {
   width: 140px;
   height: 45px;
-  background-color: #fcc302;
+  background-color: var(--main-bg-color);
   border: 3px solid white;
   border-radius: 7px;
   color: white;
@@ -185,6 +189,10 @@ body {
   bottom: 30px;
   width: 360px;
 }
+
+/*********** Get-started block end ***********/
+
+/*********** Care-block start ***********/
 
 .care-block__container {
   display: flex;
@@ -216,7 +224,7 @@ body {
 .care-block__button-item {
   width: 140px;
   height: 45px;
-  background-color: #fcc302;
+  background-color: var(--main-bg-color);
   border: none;
   border-radius: 7px;
   color: white;
@@ -225,7 +233,7 @@ body {
 }
 
 .care-block__button-item:hover {
-  box-shadow: 0px 0px 20px 0px #fcc302;
+  box-shadow: 0px 0px 20px 0px var(--main-bg-color);
   transition: 0.5ms;
 }
 
@@ -238,12 +246,16 @@ body {
   bottom: 300px;
   right: 178px;
   width: 400px;
-  box-shadow: -130px 130px 0px -110px #fcc302;
+  box-shadow: -130px 130px 0px -110px var(--main-bg-color);
 }
+
+/*********** Care-block end ***********/
+
+/*********** Service-block start ***********/
 
 .service-block__container {
   height: 780px;
-  background-color: #fcc302;
+  background-color: var(--main-bg-color);
 }
 
 .service-block__content {
@@ -275,13 +287,18 @@ body {
 }
 
 .service-list__item {
-  padding: 0px 50px 0px 22px;
+  padding: 0px 50px 0px 27px;
   margin-top: 50px;
   list-style: none;
 }
 
 .serive-list__image-item {
   width: 275px;
+}
+
+.serive-list__image-item--active:hover {
+  transition: 0.3ms;
+  transform: scale(1.1);
 }
 
 .service-list__title {
@@ -295,4 +312,63 @@ body {
   font-size: 16px;
   font-family: "Segoe UI", sans-serif;
   font-weight: 400;
+}
+
+/*********** Service-block end ***********/
+
+/*********** Care-block-second start ***********/
+
+.care-block-second__container {
+  display: flex;
+  height: 600px;
+}
+
+.care-block-second__content {
+  width: 100%;
+}
+
+.care-block-second__text-container {
+  width: 615px;
+  float: right;
+  padding: 100px 0px 0px 100px;
+  margin-right: 175px;
+  direction: rtl;
+}
+
+.care-block-second__title {
+  font-size: 34px;
+}
+
+.care-block-second__text {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+}
+
+.care-block-second__button {
+  margin-top: 35px;
+}
+
+.care-block-second__button-item {
+  width: 140px;
+  height: 45px;
+  background-color: var(--main-bg-color);
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.care-block-second__button-item:hover {
+  box-shadow: 0px 0px 20px 0px var(--main-bg-color);
+  transition: 0.5ms;
+}
+
+.care-block-second__image {
+}
+
+.care-block-second__image-item {
+  padding: 110px 0px 0px 100px;
+  width: 400px;
+  box-shadow: 180px 180px 0px -160px var(--main-bg-color);
 }
