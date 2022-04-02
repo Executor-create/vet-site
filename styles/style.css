@@ -5,6 +5,7 @@ body {
 
 :root {
   --main-bg-color: #fcc302;
+  --text-color: #313243;
 }
 
 .visually-hidden {
@@ -210,11 +211,13 @@ body {
 
 .care-block__title {
   font-size: 34px;
+  color: var(--text-color);
 }
 
 .care-block__text {
   font-family: "Segoe UI", sans-serif;
   font-weight: 500;
+  color: var(--text-color);
 }
 
 .care-block__button {
@@ -337,11 +340,13 @@ body {
 
 .care-block-second__title {
   font-size: 34px;
+  color: #313243;
 }
 
 .care-block-second__text {
   font-family: "Segoe UI", sans-serif;
   font-weight: 500;
+  color: #313243;
 }
 
 .care-block-second__button {
@@ -421,4 +426,68 @@ body {
 .sale-list__button--active:hover {
   box-shadow: 0px 0px 20px 0px #12f3ff;
   transition: 0.5ms;
+}
+
+/*********** Sale-block end ***********/
+
+/*********** Team-block start ***********/
+
+.team-block__container {
+  height: 780px;
+}
+
+.team-block__text-container {
+  text-align: center;
+}
+
+.team-block__title {
+  font-size: 48px;
+  margin-bottom: 0;
+  color: var(--text-color);
+}
+
+.team-block__text {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: var(--text-color);
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.team-list__image {
+  width: 275px;
+}
+
+.team-list__doctor-name {
+  font-size: 26px;
+  margin-bottom: 0;
+  color: var(--text-color);
+}
+
+.team-list__doctor-position {
+  font-size: 22px;
+  margin: 0px 0px 15px 0px;
+  font-family: "Segoe UI", sans-serif;
+  color: var(--text-color);
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.social-list__media-image {
+  margin: 15px 25px 0px 0px;
+  width: 30px;
+}
+
+.social-list__item {
 }
