@@ -465,6 +465,11 @@ body {
   width: 275px;
 }
 
+.team-list__image--active:hover {
+  transition: 0.3ms;
+  transform: scale(1.1);
+}
+
 .team-list__doctor-name {
   font-size: 26px;
   margin-bottom: 0;
@@ -489,5 +494,4 @@ body {
   width: 30px;
 }
 
-.social-list__item {
-}
+/*********** Team-block end ***********/
