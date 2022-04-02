@@ -292,11 +292,11 @@ body {
   list-style: none;
 }
 
-.serive-list__image-item {
+.service-list__image {
   width: 275px;
 }
 
-.serive-list__image-item--active:hover {
+.service-list__image--active:hover {
   transition: 0.3ms;
   transform: scale(1.1);
 }
@@ -371,4 +371,54 @@ body {
   padding: 110px 0px 0px 100px;
   width: 400px;
   box-shadow: 180px 180px 0px -160px var(--main-bg-color);
+}
+
+/*********** Care-block-second end ***********/
+
+/*********** Sale-block start ***********/
+
+.sale-block__container {
+  height: 800px;
+  background-color: var(--main-bg-color);
+}
+
+.sale-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  list-style: none;
+  text-align: center;
+}
+
+.sale-list__image {
+  width: 275px;
+}
+
+.sale-list__image--active:hover {
+  transition: 0.3ms;
+  transform: scale(1.1);
+}
+
+.sale-list__price {
+  color: white;
+  font-size: 32px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+}
+
+.sale-list__button {
+  width: 170px;
+  height: 45px;
+  border: none;
+  background-color: #00bec9;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sale-list__button--active:hover {
+  box-shadow: 0px 0px 20px 0px #12f3ff;
+  transition: 0.5ms;
 }
