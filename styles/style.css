@@ -517,7 +517,7 @@ body {
 }
 
 .statistics-block__subtitle {
-  margin-right: 15px;
+  margin-right: 10px;
   font-size: 22px;
   font-weight: 400;
   font-family: "Segoe UI", sans-serif;
@@ -529,3 +529,67 @@ body {
 }
 
 /*********** Statistics-block end ***********/
+
+/*********** Posts-block start ***********/
+
+.posts-block__container {
+  height: 800px;
+}
+
+.posts-block__text-block {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.posts-block__title {
+  font-size: 48px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.posts-block__text {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.posts-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 80px;
+}
+
+.posts-list__link {
+  text-decoration: none;
+}
+
+.posts-list__image {
+  width: 275px;
+}
+
+.posts-list__text-container {
+  border: 0.5px solid silver;
+  border-top: none;
+  padding: 15px;
+}
+
+.posts-list__title {
+  color: var(--text-color);
+}
+
+.posts-list__data {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+  color: #22c7d0;
+}
+
+.posts-list__text {
+  font-family: "Segoe UI", sans-serif;
+  color: var(--text-color);
+}
+
+.posts-list__more {
+  color: #22c7d0;
+}
