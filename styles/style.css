@@ -495,3 +495,37 @@ body {
 }
 
 /*********** Team-block end ***********/
+
+/*********** Statistics-block start ***********/
+
+.statistics-block__container {
+  height: 500px;
+  background-color: var(--main-bg-color);
+}
+
+.statistics-block__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+}
+
+.statistics-block__image {
+  margin-top: 135px;
+  width: 80px;
+}
+
+.statistics-block__subtitle {
+  margin-right: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.statistics-block__title {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+/*********** Statistics-block end ***********/
