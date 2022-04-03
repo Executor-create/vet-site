@@ -608,3 +608,112 @@ body {
   height: 500px;
   background-color: #343434;
 }
+
+.footer__content {
+  display: flex;
+  justify-content: space-around;
+  line-height: 40px;
+}
+
+.about-list {
+  color: white;
+  list-style: none;
+  margin-top: 120px;
+}
+
+.about-list__title {
+  font-size: 26px;
+}
+
+.about-list__link {
+  color: white;
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.about-list__link:hover {
+  color: silver;
+  transition: 0.4ms;
+}
+
+.services-list {
+  color: white;
+  list-style: none;
+  margin-top: 120px;
+}
+
+.services-list__title {
+  font-size: 26px;
+}
+
+.services-list__link {
+  color: white;
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.services-list__link:hover {
+  color: silver;
+  transition: 0.4ms;
+}
+
+.footer__media-block {
+  direction: rtl;
+  margin-top: 30px;
+}
+
+.footer__title {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.footer__text {
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer__button--blue {
+  float: right;
+  background-color: #00bec9;
+  height: 50px;
+  width: 100px;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.footer__button--blue--active:hover {
+  box-shadow: 0px 0px 20px 0px #12f3ff;
+  transition: 0.5ms;
+}
+
+.footer__send-image {
+  width: 25px;
+}
+
+.footer__input {
+  width: 320px;
+  height: 48px;
+  background-color: #fcc302;
+  border: none;
+  color: white;
+  font-size: 18px;
+  direction: ltr;
+}
+
+.footer__input--focus:focus {
+  outline: none;
+}
+
+.media-list {
+  display: flex;
+  list-style: none;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.media-list__image {
+  padding: 10px;
+  width: 30px;
+}
