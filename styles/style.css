@@ -19,7 +19,7 @@ body {
   width: 1px;
 }
 
-/*********** Header-block start ***********/
+/*********** Header start ***********/
 
 .header__container {
   display: flex;
@@ -108,7 +108,7 @@ body {
   padding-top: 4px;
 }
 
-/*********** Header-block end ***********/
+/*********** Header end ***********/
 
 /*********** Main-block start ***********/
 /*********** Get-started block start ***********/
@@ -533,7 +533,7 @@ body {
 /*********** Posts-block start ***********/
 
 .posts-block__container {
-  height: 800px;
+  height: 850px;
 }
 
 .posts-block__text-block {
@@ -592,4 +592,19 @@ body {
 
 .posts-list__more {
   color: #22c7d0;
+}
+
+.posts-list__item--active:hover {
+  transition: 0.3ms;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 3px 0px black;
+}
+
+/*********** Posts-block end ***********/
+
+/*********** Footer start ***********/
+
+.footer__container {
+  height: 500px;
+  background-color: #343434;
 }
